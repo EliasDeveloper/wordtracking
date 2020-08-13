@@ -1,13 +1,14 @@
-package view.parent;
+package view;
 
 import model.dto.PrintObject;
 import sun.security.krb5.PrincipalName;
+import view.parent.View;
 
 import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.StringTokenizer;
 
-public class PrinterView  extends View{
+public class PrinterView  extends View {
 	 @Override
 	 public void init() {
 		showheader();

@@ -46,7 +46,7 @@ public class MainOptionsView extends View {
         MyoptionsStrings.append("4) Eliminar una palabra de la base de datos.");
         MyoptionsStrings.append("\n");
         MyoptionsStrings.append("5) Escribir Palabras de la base de datos en un archivo .txt");
-        MyoptionsStrings.append("\n"); 
+        MyoptionsStrings.append("\n");
         MyoptionsStrings.append("6) Salir");
         MyoptionsStrings.append("\n");
         System.out.println(MyoptionsStrings.toString());
