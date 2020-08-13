@@ -8,10 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d35a0c9f-aab0-483f-95e8-4177df2e5a66" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MainOptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MainOptionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/MainOptionsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MainOptionsView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/parent/PrinterView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/parent/PrinterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/PrinterView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Global/SystemInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Global/SystemInfo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -67,49 +64,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WordFilePrinter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+            <state relative-caret-position="268">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainOptionController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/MainOptionController.java">
+      <file leaf-file-name="SystemInfo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Global/SystemInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
-              <folding>
-                <element signature="method#resolveMainOptionResult#0;class#MainOptionController#0" />
-                <element signature="method#resolveInsertingWordCreatedView#0;class#MainOptionController#0" />
-                <element signature="method#resolveUpdatingWordResult#0;class#MainOptionController#0" />
-                <element signature="method#resolverDeletingWordResult#0;class#MainOptionController#0" />
-                <element signature="method#selectedElectionInput#0;class#MainOptionController#0" />
-                <element signature="method#showViewResulting#0;class#MainOptionController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrinterView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/view/PrinterView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="161">
+              <caret line="7" column="64" lean-forward="true" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -449,7 +422,6 @@
         <option value="$PROJECT_DIR$/src/test/java/pruebajpa/wordentity.java" />
         <option value="$PROJECT_DIR$/src/test/java/pruebajpa/jpamain.java" />
         <option value="$PROJECT_DIR$/src/test/java/pruebajpa/Words.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Global/SystemInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/CrudController.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/ShowWordsFromDatabase.java" />
         <option value="$PROJECT_DIR$/src/test/java/pruebaView/timetest.java" />
@@ -475,7 +447,6 @@
         <option value="$PROJECT_DIR$/src/main/java/view/UpdatingWordView.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/model/Print/FilePrinter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/dao/daodefinition/IWordD.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/dao/daoimplementation/WordDaoImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/dto/printingObject.java" />
@@ -483,6 +454,8 @@
         <option value="$PROJECT_DIR$/src/main/java/view/parent/PrinterView.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/MainOptionsView.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/MainOptionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Global/SystemInfo.java" />
       </list>
     </option>
   </component>
@@ -495,7 +468,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -563,6 +536,14 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordtracking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordTracking" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Global" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wordtracking" type="b2602c69:ProjectViewProjectNode" />
@@ -788,7 +769,7 @@
       <workItem from="1596838785232" duration="601000" />
       <workItem from="1596968836560" duration="6749000" />
       <workItem from="1597332959000" duration="5254000" />
-      <workItem from="1597351099907" duration="3733000" />
+      <workItem from="1597351099907" duration="4870000" />
     </task>
     <servers />
   </component>
@@ -825,7 +806,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72433000" />
+    <option name="totallyTimeSpent" value="73570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -837,7 +818,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.05063966" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -927,13 +908,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/pruebajpa/wordentity.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pruebajpa/Words.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pruebajpa/jpamain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Global/SystemInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/CrudController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/pa.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/util/StringTokenizer.class">
@@ -1128,24 +1102,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/PrinterView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="-311">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/MainOptionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
+        <state relative-caret-position="558">
           <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
           <folding>
             <element signature="method#resolveMainOptionResult#0;class#MainOptionController#0" />
@@ -1155,6 +1119,25 @@
             <element signature="method#selectedElectionInput#0;class#MainOptionController#0" />
             <element signature="method#showViewResulting#0;class#MainOptionController#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Global/SystemInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="64" lean-forward="true" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
         </state>
       </provider>
     </entry>
