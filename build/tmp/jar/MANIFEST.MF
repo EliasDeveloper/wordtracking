@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: lib/persistence-api-1.0.jar lib/mysql-connector-java-8.0.2
+ 1.jar lib/eclipselink-3.0.0-M1.jar lib/protobuf-java-3.11.4.jar
+Main-Class: app.appmain
+

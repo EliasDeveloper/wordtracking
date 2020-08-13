@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+}
+apply plugin: 'java'
+apply plugin: 'java-library-distribution'
+
+group 'private'
+
+version 'v1.1'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'javax.persistence', name: 'persistence-api', version: '1.0'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.21'
+    compile group: 'org.eclipse.persistence', name: 'eclipselink', version: '3.0.0-M1'
+
+}
+
+distZip.shouldRunAfter(build)
+
+
+jar {
+    // Keep jar clean:
+    exclude 'META-INF/*.SF', 'META-INF/*.DSA', 'META-INF/*.RSA', 'META-INF/*.MF'
+    manifest {
+        attributes 'Main-Class': 'app.appmain',
+                'Class-Path': configurations.runtime.files.collect { "lib/$it.name" }.join(' ')
+    }
+    from{
+        configurations.compile.collect{
+            it.isDirectory()?it:zipTree(it)
+        }
+    }
+}
+
+
