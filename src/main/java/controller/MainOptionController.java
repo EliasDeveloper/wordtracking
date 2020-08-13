@@ -153,6 +153,7 @@ public class MainOptionController {
                 showDeletingWordView();
                 break;
             case 5:
+            	 showPrintinWordView();
             case 6:
                 System.exit(0);
         }
