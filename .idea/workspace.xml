@@ -6,22 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35a0c9f-aab0-483f-95e8-4177df2e5a66" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Util/TimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/connection/IConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/connection/MysqlConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/daodefinition/IWordD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/daoimplementation/WordDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/dto/PrintObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/dto/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/DeletingWordView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/InsertingWordFromUserView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/ShowWordsFromDatabaseView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/UpdatingWordView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/parent/PrinterView.java" afterDir="false" />
-    </list>
+    <list default="true" id="d35a0c9f-aab0-483f-95e8-4177df2e5a66" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -85,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordFilePrinter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordFilePrinter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
+            <state relative-caret-position="669">
               <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrinterView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrinterView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/view/parent/PrinterView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="291">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -814,7 +799,7 @@
       <workItem from="1596838785232" duration="601000" />
       <workItem from="1596968836560" duration="6749000" />
       <workItem from="1597332959000" duration="5254000" />
-      <workItem from="1597351099907" duration="872000" />
+      <workItem from="1597351099907" duration="1957000" />
     </task>
     <servers />
   </component>
@@ -851,7 +836,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69572000" />
+    <option name="totallyTimeSpent" value="70657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1110,16 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f84a5c0e-4033-4f6e-9a57-1a67a194e469/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1171,8 +1146,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/parent/PrinterView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="291">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

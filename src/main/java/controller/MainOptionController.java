@@ -149,6 +149,7 @@ public class MainOptionController {
                     }
                 }.init();
                 Thread.sleep(1000);
+                return; 
             }
            new View() {
                @Override
