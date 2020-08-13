@@ -1,7 +1,9 @@
 package controller;
 
+import model.Print.WordFilePrinter;
 import model.dao.daodefinition.IWordD;
 import model.dao.daoimplementation.WordDaoImp;
+import model.dto.PrintObject;
 import model.dto.Word;
 import view.*;
 import view.parent.View;
@@ -18,6 +20,7 @@ public class MainOptionController {
     private InsertingWordFromUserView insertingWordFromUserView;
     private DeletingWordView deletingWordView;
     private UpdatingWordView updatingWordView;
+    private PrinterView printerView;
     private String systemargs[];
 
     public MainOptionController(String... systemargs){
@@ -57,7 +60,7 @@ public class MainOptionController {
 
     private void showDeletingWordView(){
         this.deletingWordView.addObserver((observable, object) -> {
-                resolverDeletingWordResult(object);
+                resolveDeletingWordResult(object);
         });
         this.deletingWordView.init();
     }
@@ -69,12 +72,21 @@ public class MainOptionController {
         this.updatingWordView.init();
     }
 
+
+    private void showPrintinWordView(){
+            this.printerView.addObserver((observable, o) -> {
+                resolvePrintingWordResult(o);
+            });
+            this.printerView.init();
+    }
+
     private void loadviews(){
         this.showWordsFromDatabaseView = new ShowWordsFromDatabaseView();
         this.mainOptionsView = new MainOptionsView();
         this.insertingWordFromUserView = new InsertingWordFromUserView();
         this.updatingWordView = new UpdatingWordView();
         this.deletingWordView = new DeletingWordView();
+        this.printerView = new PrinterView();
     }
 
     private void resolveMainOptionResult(String result) {
@@ -82,11 +94,9 @@ public class MainOptionController {
             throw new NullPointerException("There was an Exception, The mainresultOption coming from the main option cannon be null.");
         selectedElectionInput(result);
     }
-
     private  void resolveShowWordsListViewResult(String result){
         this.mainOptionsView.init();
     }
-
     private void resolveInsertingWordCreatedView(List<Word> words){
         if(Objects.isNull(words))
             throw new NullPointerException("Error on adding the words, The words cannot be null. ");
@@ -98,7 +108,6 @@ public class MainOptionController {
         showViewResulting(succes, "Se han añadido todas las palabras correctamente. ", "No se han podido añadir las palabras. ");
         this.mainOptionsView.init();
     }
-
     private void resolveUpdatingWordResult(Object resulting){
             if(Objects.isNull(resulting)) throw new NullPointerException("The updating word cannot be null. ");
             Word tobeupdated = (Word) resulting;
@@ -107,7 +116,7 @@ public class MainOptionController {
             showViewResulting(iWordD.updateWord(tobeupdated), "Se ha Actualiza la palabra correctamente. ", "No se han podido actualizar la palabra.");
             mainOptionsView.init();
     }
-    private void resolverDeletingWordResult(Object resulting){
+    private void resolveDeletingWordResult(Object resulting){
         if(Objects.isNull(resulting)) throw new NullPointerException("The deleting word cannot be null. ");
         String resultingData = (String) resulting;
         if(resultingData.equalsIgnoreCase("cancel")) mainOptionsView.init();
@@ -115,8 +124,19 @@ public class MainOptionController {
         showViewResulting(iWordD.deleteWord(Integer.parseInt(resultingData)), "Se ha eliminado correctamente. ", "No se ha podido eliminar la palabra. ");
         mainOptionsView.init();
     }
-
-
+    private void resolvePrintingWordResult(Object resulting){
+        PrintObject printobj = (PrintObject) resulting;
+        if(printobj.getIdInicial() == -1) this.mainOptionsView.init();
+        IWordD wordD = new WordDaoImp();
+        List<Word> words  = wordD.getAllWord(printobj.getIdInicial(), printobj.getIdFinal());
+        WordFilePrinter wordfileprinter = new WordFilePrinter(printobj.getLocation());
+        wordfileprinter.setWordlist(words);
+        wordfileprinter.addObserver((observable, o) -> {
+            int wordcounter = (Integer) o;
+            showViewResulting(wordcounter != 0,"Se han logrado escribir correctamnte " + wordcounter + " palabras en el archivo ", "Ha ocurrido algo inesparado" );
+            this.mainOptionsView.init();
+        });
+    }
     private void selectedElectionInput(String numbers){
         int numberelection = Integer.parseInt(numbers);
         switch (numberelection){
@@ -133,23 +153,22 @@ public class MainOptionController {
                 showDeletingWordView();
                 break;
             case 5:
+            case 6:
                 System.exit(0);
         }
     }
-
-
     private void showViewResulting(boolean bool, String Onsucces, String Onfailure){
         try {
             if (bool) {
                 //we need to be consecuent with the view architecturre.
-             new View() {
+                new View() {
                     @Override
                     public void init() {
                         System.out.println(Onsucces);
                     }
                 }.init();
                 Thread.sleep(1000);
-                return; 
+                return;
             }
            new View() {
                @Override
@@ -162,7 +181,6 @@ public class MainOptionController {
             e.printStackTrace();
         }
     }
-
     private List<Word> getWordsFromDatabase(){
         return new WordDaoImp().getAllWords();
     }
