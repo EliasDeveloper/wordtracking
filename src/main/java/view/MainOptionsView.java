@@ -5,7 +5,7 @@ import view.parent.View;
 public class MainOptionsView extends View {
 
     private int MinOption = 0;
-    private int MaxOption = 5;
+    private int MaxOption = 6;
     public void init(){
         CleanInputView();
         String data = "";
@@ -37,15 +37,17 @@ public class MainOptionsView extends View {
     }
     private void  showOptions(){
         StringBuilder MyoptionsStrings = new StringBuilder();
-        MyoptionsStrings.append(" 1) Mostrar las palabras de la base de datos. ");
+        MyoptionsStrings.append("1) Mostrar las palabras de la base de datos. ");
         MyoptionsStrings.append("\n");
-        MyoptionsStrings.append(" 2) Agregar una nueva palabra a la base de datos.");
+        MyoptionsStrings.append("2) Agregar una nueva palabra a la base de datos.");
         MyoptionsStrings.append("\n");
         MyoptionsStrings.append("3) Actualizar Una palabra de la base de datos. ");
         MyoptionsStrings.append("\n");
         MyoptionsStrings.append("4) Eliminar una palabra de la base de datos.");
         MyoptionsStrings.append("\n");
-        MyoptionsStrings.append("5) Salir");
+        MyoptionsStrings.append("5) Escribir Palabras de la base de datos en un archivo .txt");
+        MyoptionsStrings.append("\n"); 
+        MyoptionsStrings.append("6) Salir");
         MyoptionsStrings.append("\n");
         System.out.println(MyoptionsStrings.toString());
     }
