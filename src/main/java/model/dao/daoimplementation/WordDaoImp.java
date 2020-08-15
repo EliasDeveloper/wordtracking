@@ -99,7 +99,7 @@ public class WordDaoImp implements IWordD {
         List<Word> worlist = new ArrayList<>();
 
         try(Connection conn = MysqlConnection.getInstance().getConnectionAcces()){
-            String sql = "select * from words limit ?, ? ";
+            String sql = "select * from words where idword between ? and ?; ";
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
             preparedStatement.setInt(1, primero);
             preparedStatement.setInt(2, segundo);
