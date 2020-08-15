@@ -125,17 +125,19 @@ public class MainOptionController {
         mainOptionsView.init();
     }
     private void resolvePrintingWordResult(Object resulting){
-        PrintObject printobj = (PrintObject) resulting;
-        if(printobj.getIdInicial() == -1) this.mainOptionsView.init();
-        IWordD wordD = new WordDaoImp();
-        List<Word> words  = wordD.getAllWord(printobj.getIdInicial(), printobj.getIdFinal());
-        WordFilePrinter wordfileprinter = new WordFilePrinter(printobj.getLocation());
-        wordfileprinter.setWordlist(words);
-        wordfileprinter.addObserver((observable, o) -> {
-            int wordcounter = (Integer) o;
-            showViewResulting(wordcounter != 0,"Se han logrado escribir correctamnte " + wordcounter + " palabras en el archivo ", "Ha ocurrido algo inesparado" );
-            this.mainOptionsView.init();
-        });
+
+            PrintObject printobj = (PrintObject) resulting;
+            if (printobj.getIdInicial() == -1) this.mainOptionsView.init();
+            IWordD wordD = new WordDaoImp();
+            List<Word> words = wordD.getAllWord(printobj.getIdInicial(), printobj.getIdFinal());
+            WordFilePrinter wordfileprinter = new WordFilePrinter(printobj);
+            wordfileprinter.setWordlist(words);
+            wordfileprinter.addObserver((observable, o) -> {
+                int wordcounter = (Integer) o;
+                showViewResulting(wordcounter != 0, "Se han logrado escribir correctamnte " + wordcounter + " palabras en el archivo ", "Ha ocurrido algo inesparado");
+                this.mainOptionsView.init();
+            });
+            wordfileprinter.startPrinting();
     }
     private void selectedElectionInput(String numbers){
         int numberelection = Integer.parseInt(numbers);
@@ -154,8 +156,10 @@ public class MainOptionController {
                 break;
             case 5:
             	 showPrintinWordView();
+            	 break;
             case 6:
                 System.exit(0);
+                break;
         }
     }
     private void showViewResulting(boolean bool, String Onsucces, String Onfailure){
