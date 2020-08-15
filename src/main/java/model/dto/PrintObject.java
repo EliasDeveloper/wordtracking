@@ -5,6 +5,7 @@ public class PrintObject {
 	 private int IdInicial;
 	 private int IdFinal;
 	 private String location;
+	 private String filename;
 
 	 public int getIdInicial() {
 		  return IdInicial;
@@ -28,5 +29,13 @@ public class PrintObject {
 
 	 public void setLocation(String location) {
 		  this.location = location;
+	 }
+
+	 public String getFilename() {
+		  return filename;
+	 }
+
+	 public void setFilename(String filename) {
+		  this.filename = filename;
 	 }
 }
