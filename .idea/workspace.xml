@@ -7,7 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35a0c9f-aab0-483f-95e8-4177df2e5a66" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/MainOptionController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/controller/MainOptionController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/MainOptionController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/controller/MainOptionController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/MainOptionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/controller/MainOptionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/wordtracking-v1.1.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/wordtracking-v1.1.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/wordtracking-v1.1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/wordtracking-v1.1.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/wordtracking-v1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/wordtracking-v1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MainOptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MainOptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/daoimplementation/WordDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/daoimplementation/WordDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dto/PrintObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dto/PrintObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/PrinterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/PrinterView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,24 +51,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="myvocabulary@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="myvocabulary@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="myvocabulary@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="myvocabulary: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="myvocabulary@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="myvocabulary: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="words: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -62,7 +60,55 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PrinterView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/view/PrinterView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="26" column="142" selection-start-line="26" selection-start-column="142" selection-end-line="26" selection-end-column="142" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainOptionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/MainOptionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="132" column="76" lean-forward="true" selection-start-line="132" selection-start-column="76" selection-end-line="132" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#3264#3265#0" expanded="true" />
+                <element signature="e#3307#3308#0" expanded="true" />
+                <element signature="e#6584#6761#0" expanded="true" />
+                <element signature="e#6760#6761#0" expanded="true" />
+                <element signature="e#6855#7008#0" expanded="true" />
+                <element signature="e#7007#7008#0" expanded="true" />
+                <element signature="e#7315#7316#0" expanded="true" />
+                <element signature="e#7368#7369#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordFilePrinter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="928">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -413,7 +459,6 @@
         <option value="$PROJECT_DIR$/src/test/java/pruebaView/dataaccesproof.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/connection/MysqlConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/appmain.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f84a5c0e-4033-4f6e-9a57-1a67a194e469/console.sql" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/model/dto/Word.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/DeletingWordView.java" />
@@ -423,14 +468,16 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/model/Print/FilePrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/dao/daodefinition/IWordD.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/dao/daoimplementation/WordDaoImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/dto/printingObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/dto/PrintObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/parent/PrinterView.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/MainOptionsView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/MainOptionController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/Global/SystemInfo.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f84a5c0e-4033-4f6e-9a57-1a67a194e469/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/daoimplementation/WordDaoImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/MainOptionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dto/PrintObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/PrinterView.java" />
       </list>
     </option>
   </component>
@@ -457,9 +504,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -518,14 +565,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Global" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordtracking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WordTracking" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -536,6 +575,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordtracking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordTracking" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="daoimplementation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wordtracking" type="b2602c69:ProjectViewProjectNode" />
@@ -562,15 +611,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordtracking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WordTracking" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -603,7 +643,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.wordtracking-v1.0.jar">
+  <component name="RunManager" selected="Application.appmain">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -617,9 +657,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method>
-        <option name="Gradle.BeforeRunTask" enabled="true" tasks="jar" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
-      </method>
     </configuration>
     <configuration name="build (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="wordtracking" />
@@ -703,10 +740,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.appmain" />
-      <item itemvalue="JUnit.dataaccesproof.test" />
       <item itemvalue="Groovy.build" />
       <item itemvalue="Groovy.build (1)" />
       <item itemvalue="JAR Application.wordtracking-v1.0.jar" />
+      <item itemvalue="JUnit.dataaccesproof.test" />
     </list>
     <recent_temporary>
       <list>
@@ -745,7 +782,17 @@
       <workItem from="1596968836560" duration="6749000" />
       <workItem from="1597332959000" duration="5254000" />
       <workItem from="1597351099907" duration="5334000" />
+      <workItem from="1597357185270" duration="932000" />
+      <workItem from="1597526344031" duration="2656000" />
     </task>
+    <task id="LOCAL-00001" summary="correction of the code in line 156, function hasn't called.">
+      <created>1597357314616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597357314616</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -781,10 +828,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74034000" />
+    <option name="totallyTimeSpent" value="77622000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -792,7 +839,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20469083" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.15191898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -802,18 +849,18 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32004312" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297414" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.50431037" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35237068" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3900862" />
       <window_info id="Persistence" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.20905173" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="JavaEE:App" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.3297414" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.25646552" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -827,6 +874,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="correction of the code in line 156, function hasn't called." />
+    <option name="LAST_COMMIT_MESSAGE" value="correction of the code in line 156, function hasn't called." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1004,13 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/daoimplementation/WordDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/parent/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1033,33 +1077,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/PrintObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f84a5c0e-4033-4f6e-9a57-1a67a194e469/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1074,28 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/PrinterView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-311">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/MainOptionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
-          <folding>
-            <element signature="method#resolveMainOptionResult#0;class#MainOptionController#0" />
-            <element signature="method#resolveInsertingWordCreatedView#0;class#MainOptionController#0" />
-            <element signature="method#resolveUpdatingWordResult#0;class#MainOptionController#0" />
-            <element signature="method#resolverDeletingWordResult#0;class#MainOptionController#0" />
-            <element signature="method#selectedElectionInput#0;class#MainOptionController#0" />
-            <element signature="method#showViewResulting#0;class#MainOptionController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Global/SystemInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1103,15 +1098,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/daoimplementation/WordDaoImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="410">
+          <caret line="101" column="76" selection-start-line="101" selection-start-column="76" selection-end-line="101" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f84a5c0e-4033-4f6e-9a57-1a67a194e469/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/MainOptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="132" column="76" lean-forward="true" selection-start-line="132" selection-start-column="76" selection-end-line="132" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#3264#3265#0" expanded="true" />
+            <element signature="e#3307#3308#0" expanded="true" />
+            <element signature="e#6584#6761#0" expanded="true" />
+            <element signature="e#6760#6761#0" expanded="true" />
+            <element signature="e#6855#7008#0" expanded="true" />
+            <element signature="e#7007#7008#0" expanded="true" />
+            <element signature="e#7315#7316#0" expanded="true" />
+            <element signature="e#7368#7369#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/PrintObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Print/WordFilePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/PrinterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="26" column="142" selection-start-line="26" selection-start-column="142" selection-end-line="26" selection-end-column="142" />
         </state>
       </provider>
     </entry>
