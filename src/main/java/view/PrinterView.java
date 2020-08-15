@@ -24,14 +24,13 @@ public class PrinterView  extends View {
 	 }
 
 	 private void showheader(){
-		  System.out.println("type the initial id and the final id to write on the file, following format IDInitial=IdFinal#ubicacion");
+		  System.out.println("type the initial id and the final id to write on the file, following format IDInitial=IdFinal#ubicacion#Filename");
 	 }
 
 	 private PrintObject initloop(){
 	 	 PrintObject printObject = null;
 	 	 while(true){
 			  String datauser = getInputData();
-			  if(datauser.equalsIgnoreCase("stop")) break;
 			   printObject = getObjectFromUser(datauser);
 			  if(!Objects.isNull(printObject)) break;
 			  System.out.println("there was an error pleas, write the format correctly. :)");
@@ -41,15 +40,17 @@ public class PrinterView  extends View {
 
 	 private PrintObject getObjectFromUser(String userInput){
 	 	 try{
-			  StringTokenizer stringTokenizerAll = new StringTokenizer(userInput, "=");
-			  StringTokenizer stringTokenizerleft = new StringTokenizer(stringTokenizerAll.nextToken(), "#");
+			  StringTokenizer stringTokenizerAll = new StringTokenizer(userInput, "#");
+			  StringTokenizer stringTokenizerleft = new StringTokenizer(stringTokenizerAll.nextToken(), "=");
 			  String Ubicacion = stringTokenizerAll.nextToken();
 			  int idINicial = Integer.parseInt(stringTokenizerleft.nextToken());
 			  int idFinal = Integer.parseInt(stringTokenizerleft.nextToken());
+			  String filename = stringTokenizerAll.nextToken();
 			  PrintObject printObject = new PrintObject();
 			  printObject.setLocation(Ubicacion);
 			  printObject.setIdInicial(idINicial);
 			  printObject.setIdFinal(idFinal);
+			  printObject.setFilename(filename);
 			  return printObject;
 		 }catch(NumberFormatException | NoSuchElementException e){
 	 	 	 //if an excepcion we will know it.
