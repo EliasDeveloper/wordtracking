@@ -6,7 +6,7 @@ apply plugin: 'java-library-distribution'
 
 group 'private'
 
-version 'v1.2 '
+version 'v1.2'
 
 sourceCompatibility = 1.8
 
